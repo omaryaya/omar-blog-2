@@ -3,3 +3,6 @@ _site
 node_modules
 Gemfile.lock
 *.gem
+.vscode
+.jekyll-cache
+run.sh
