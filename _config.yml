@@ -1,10 +1,10 @@
 title:              Omar YAYA
+greeting:           Hi, I'm Omar
 email:              omar.yaya.work@gmail.com
-description:        Welcome to Omar YAYA Personal Website
+description:        Welcome to My Website
 author:             Omar YAYA
-baseurl:            "/"
+baseurl:            ""
 url:                "https://omaryaya.github.io"
-# https://omaryaya.github.io/omar-blog-2
 
 # Social Profiles
 twitter_username:   OmarYayaa
@@ -23,3 +23,12 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+# Conversion
+# highlighter: rouge
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
