@@ -120,7 +120,6 @@ class Solution {
 The method `numIslands` is mostly a driver function that invokes `traverseIsland`, which - in fact - does most of the heavylifting.
 
 ```java
-
 private void traverseIsland(char[][] grid, int row, int col) {
     // These are the stopping conditions for the recursive method.
     // If we go outside the boundaries of the grid, or if we have a cell that's a '0' (water),
@@ -146,4 +145,10 @@ private void traverseIsland(char[][] grid, int row, int col) {
 ### Final Code
 
 ![final code](/img/posts/lc-200-number-of-islands/leetcode-200-number-of-islands-final-code.png)
-*This is how our code is going to be.*
+*This is how our final code is going to look.*
+
+<br />
+
+I hope you enjoyed this tutorial.
+
+Let me know what you'd like me to talk about in future articles by [tweeting me](https://twitter.com/omaryayaa)

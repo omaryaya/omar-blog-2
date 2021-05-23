@@ -25,7 +25,7 @@ plugins:
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
 # Conversion
-# highlighter: rouge
+highlighter: rouge
 
 # Markdown Processors
 kramdown:
