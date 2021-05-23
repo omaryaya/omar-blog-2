@@ -145,41 +145,5 @@ private void traverseIsland(char[][] grid, int row, int col) {
 
 ### Final Code
 
-```java
-class Solution {
-    public int numIslands(char[][] grid) {
-        
-        int numberOfIslands = 0;
-        
-        for(int row=0 ; row<grid.length ; row++) {
-            for(int col =0 ; col<grid[0].length ; col++) {
-                if(grid[row][col] == '1') {
-                    numberOfIslands++;
-                    traverseIsland(grid, row, col);
-                }
-            }
-        }
-        
-        return numberOfIslands;
-        
-    }
-
-    private void traverseIsland(char[][] grid, int row, int col) {
-        // Stopping conditions for the recursive method.
-        if(row<0 || row>= grid.length ||
-            col<0 || col>= grid[0].length || /* If we go outside the boundaries of the grid */
-            grid[row][col] == '0') /* if we have a cell that's a '0' (water) (i.e. no more land in this direction) */
-            return;
-
-        // If we reach here, it means that the current value in the cell is '1'.
-        // We change its value because we don't care about it anymore.
-        grid[row][col] = '0';
-
-        // now we need to check whether the neighbors to the left, right, top, and bottom are part of the current island
-        traverseIsland(grid,row,col-1);
-        traverseIsland(grid,row, col+1);
-        traverseIsland(grid,row-1, col);
-        traverseIsland(grid,row+1, col);
-    }
-}
-```
+![final code](/img/posts/lc-200-number-of-islands/leetcode-200-number-of-islands-final-code.png)
+*This is how our code is going to be.*
