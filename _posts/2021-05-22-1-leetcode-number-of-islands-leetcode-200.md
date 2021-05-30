@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Number of Islands - Leetcode 200"
-subtitle: "Common FAANG Interview Question. Asked by Amazon, Facebook, Google, Microsoft and more..."
+title: "How to solve Leetcode Number of Islands - Leetcode 200"
+subtitle: "Solution to a common FAANG Interview Question. Asked by Amazon, Facebook, Google, Microsoft and more..."
 background: '/img/posts/lc-200-number-of-islands/zunnoon-ahmed-06Fc_R9hA8w-unsplash.jpg'
 ---
 # Content
