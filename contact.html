@@ -10,21 +10,30 @@ form: true
   <table>
     <tr>
       <th scope="col">Email</th>
-      <td><a target="_blank" href="mailto:{{ site.email }}">{{ site.email }}</a></td>
+      <td><a target="_blank" class="leavewebsite" href="mailto:{{ site.email }}">{{ site.email }}</a></td>
     </tr>
     <tr>
       <th scope="col">Twitter</th>
-      <td><a target="_blank" style="color: #1da1f2" href="https://twitter.com/{{ site.twitter_username }}">@{{
+      <td><a target="_blank" class="leavewebsite" style="color: #1da1f2"
+          href="https://twitter.com/{{ site.twitter_username }}">@{{
           site.twitter_username }}</a>
       </td>
     </tr>
     <tr>
+      <th scope="col">LinkedIn</th>
+      <td><a target="_blank" class="leavewebsite" href="https://linkedin.com/in/{{ site.linkedin_username }}">{{
+          site.linkedin_username
+          }}</a></td>
+      </tr>
+      <tr>
       <th scope="col">Github</th>
-      <td><a target="_blank" href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></td>
+      <td><a target="_blank" class="leavewebsite" href="https://github.com/{{ site.github_username }}">{{ site.github_username
+          }}</a></td>
     </tr>
     <tr>
-      <th scope="col">LinkedIn</th>
-      <td><a target="_blank" href="https://linkedin.com/in/{{ site.linkedin_username }}">{{ site.linkedin_username
+      <th scope="col">DEV.to</th>
+      <td><a target="_blank" class="leavewebsite" href="https://dev.to/{{ site.devto_username }}">{{
+          site.devto_username
           }}</a></td>
     </tr>
 
