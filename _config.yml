@@ -3,8 +3,8 @@ greeting:           Hi, I'm Omar
 email:              omar.yaya.work@gmail.com
 description:        Software Engineer | Certified ScrumMaster® (CSM®)
 author:             Omar YAYA
-baseurl:            ""
-url:                "https://omaryaya.github.io"
+baseurl:
+url:
 
 # Social Profiles
 twitter_username:   OmarYayaa
