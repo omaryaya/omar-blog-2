@@ -7,6 +7,12 @@ header.masthead {
     background-attachment: scroll;
     position: relative;
     background-size: cover;
+    &.about {
+        background-position-y: -100px;
+    }
+    &.home {
+        background-position-y: bottom;
+    }
 
     .overlay {
         position: absolute;
