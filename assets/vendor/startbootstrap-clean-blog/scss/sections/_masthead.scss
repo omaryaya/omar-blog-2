@@ -8,11 +8,34 @@ header.masthead {
     position: relative;
     background-size: cover;
     &.about {
-        background-position-y: -100px;
+        background-position: center top 25%;
     }
     &.home {
-        background-position-y: bottom;
+        background-position: center bottom 5%;
     }
+    
+    @media (min-width: 1400px) {
+        &.home {
+            background-position: center bottom 25%;
+        }
+    }
+
+    @media (min-width: 1800px) {
+        &.home {
+            background-position: center bottom 35%;
+        }
+    }
+    @media (min-width: 2200px) {
+        &.home {
+            background-position: center bottom 45%;
+        }
+    }
+    @media (min-width: 2400px) {
+        &.home {
+            background-position: center bottom 55%;
+        }
+    }
+    
 
     .overlay {
         position: absolute;
