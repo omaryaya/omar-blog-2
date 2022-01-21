@@ -3,7 +3,10 @@ layout: default
 ---
 
 <!-- Page Header -->
-{% if page.background %}
+{% if page.background && page.customClass %}
+<header class="masthead {{ page.customClass }}"
+  style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else if page.background && !page.customClass %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
   {% else %}
   <header class="masthead">
