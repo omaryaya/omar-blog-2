@@ -1,10 +1,9 @@
 title:              Omar YAYA
 greeting:           Hi, I'm Omar
-email:              omar.yaya.work@gmail.com
 description:        Software Engineer | Certified ScrumMaster® (CSM®)
 author:             Omar YAYA
-baseurl:            ""
-url:                "https://omaryaya.github.io"
+baseurl:           "/"
+url:               "https://omaryaya.com"
 
 # Social Profiles
 twitter_username:   OmarYayaa
@@ -14,7 +13,7 @@ linkedin_username:  omaryaya
 devto_username:  omaryaya
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   UA-217466661-1 # out your google-analytics code
 
 # Build settings
 markdown:           kramdown

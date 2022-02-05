@@ -1,17 +1,19 @@
 ---
 layout: page
 title: Contact Me
-description: Email, Twitter, Github, or LinkedIn
+description: Let's get in touch!
 background: '/img/bg-contact.jpg'
 form: true
 ---
 
 <div class="skills-table">
   <table>
+    {% if site.email %}
     <tr>
       <th scope="col">Email</th>
       <td><a target="_blank" class="leavewebsite" href="mailto:{{ site.email }}">{{ site.email }}</a></td>
     </tr>
+    {% endif %}
     <tr>
       <th scope="col">Twitter</th>
       <td><a target="_blank" class="leavewebsite" style="color: #1da1f2"
@@ -38,6 +40,8 @@ form: true
     </tr>
 
   </table>
-</div>
+  <iframe class="contact-me-form"
+    src="https://docs.google.com/forms/d/e/1FAIpQLSdff45mrSl5_A9ezTKvYtBXwAPWqsfB2YHNwZwPj1Ow1PgMrg/viewform?embedded=true"
+    width="640" height="786" frameborder="0" marginheight="20" marginwidth="20">Loading…</iframe>
 
-<p class="mb-5" />
+</div>
