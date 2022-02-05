@@ -8,10 +8,12 @@ form: true
 
 <div class="skills-table">
   <table>
+    {% if site.email %}
     <tr>
       <th scope="col">Email</th>
       <td><a target="_blank" class="leavewebsite" href="mailto:{{ site.email }}">{{ site.email }}</a></td>
     </tr>
+    {% endif %}
     <tr>
       <th scope="col">Twitter</th>
       <td><a target="_blank" class="leavewebsite" style="color: #1da1f2"

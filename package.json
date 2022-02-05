@@ -1,34 +1,77 @@
 {
-    "title": "Omar YAYA Blog",
-    "name": "omar-yaya-blog",
-    "version": "4.0.12",
-    "description": "Omar YAYA blog.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://github.com/omaryaya/omar-blog-2",
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)",
-        "Omar YAYA"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/omaryaya/omar-blog-2"
-    },
-    "dependencies": {
-        "bootstrap": "4.6.0",
-        "font-awesome": "4.7.0",
-        "jquery": "3.6.0",
-        "startbootstrap-clean-blog": "5.1.0"
-    },
-    "devDependencies": {
-        "browser-sync": "2.26.14"
-    }
+  "title": "Omar YAYA",
+  "name": "omar-yaya",
+  "version": "4.0.12",
+  "description": "Omar YAYA",
+  "keywords": [
+    "omar",
+    "omaryaya",
+    "omaryayablog",
+    "omar-yaya",
+    "omar yaya",
+    "software",
+    "software engineer",
+    "software developer",
+    "senior software",
+    "senior software engineer",
+    "senior software developer",
+    "fullstack developer",
+    "fullstack engineer",
+    "senior fullstack software engineer",
+    "senior fullstack software developer",
+    "broadcom",
+    "valeo",
+    "agolo",
+    "css",
+    "javascript",
+    "typescript",
+    "nodejs",
+    "node js",
+    "reactjs",
+    "node express",
+    "expressjs",
+    "express js",
+    "java",
+    "spring",
+    "spring boot",
+    "hibenate",
+    "jpa",
+    "spring data",
+    "spring security",
+    "spring boot security",
+    "spring boot jpa",
+    "spring boot hibernate",
+    "sql",
+    "mysql",
+    "postgresql",
+    "mongodb",
+    "mongodb mongoose",
+    "nosql",
+    "nosql mongodb",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://github.com/omaryaya/omaryaya.github.io",
+  "license": "MIT",
+  "author": "Start Bootstrap",
+  "contributors": [
+    "David Miller (http://davidmiller.io/)",
+    "Omar YAYA"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omaryaya/omaryaya.github.io"
+  },
+  "dependencies": {
+    "bootstrap": "4.6.0",
+    "font-awesome": "4.7.0",
+    "jquery": "3.6.0",
+    "startbootstrap-clean-blog": "5.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.14"
+  }
 }
