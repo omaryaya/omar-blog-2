@@ -214,7 +214,7 @@ or
 ./gradlew bootRun
 ```
 
-## Step 5: View Your Results
+## Step 6: View Your Results
 To call our API & supply our artist name, we will use Postman. Here is how typical request & response should look like:
 ![Postman Configuration](/img/posts/openfeign-part-1/postman-req-res.png)
 *Postman Request & Response Example*
