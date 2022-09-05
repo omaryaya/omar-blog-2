@@ -6,6 +6,7 @@ baseurl:            ""
 url:                "https://omaryaya.github.io"
 
 # Social Profiles
+default_username: omaryaya
 twitter_username:   OmarYayaa
 github_username:    omaryaya
 instagram_username:  yayaa.omar
