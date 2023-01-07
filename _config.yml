@@ -1,6 +1,7 @@
 title:              Omar YAYA
 greeting:           Hi, I'm Omar
 description:        Senior Software Engineer (Full-stack) | Certified ScrumMaster® (CSM®)
+author: Omar YAYA
 baseurl:           "/"
 url:               "https://omaryaya.com"
 
@@ -48,6 +49,3 @@ social:
     - https://www.linkedin.com/in/omaryaya
     - https://github.com/omaryaya
     - https://www.instagram.com/yayaa.omar
-
-author:
-  twitter: OmarYayaa
