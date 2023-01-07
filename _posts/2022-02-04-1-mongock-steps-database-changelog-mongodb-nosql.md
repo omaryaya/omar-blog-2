@@ -2,7 +2,9 @@
 layout: post
 title: "5 steps to Use Mongock for MongoDB Changelogs"
 subtitle: "Powerful Java Tool for Microservices & Distributed Environments NoSQL Data Migrations"
+description: "Powerful Java Tool for Microservices & Distributed Environments NoSQL Data Migrations"
 background: '/img/posts/mongock-nosql-changelogs/markus-spiske-Skf7HxARcoc-unsplash.jpg'
+image: '/img/posts/mongock-nosql-changelogs/markus-spiske-Skf7HxARcoc-unsplash.jpg'
 ---
 # Content
 {:.no_toc}

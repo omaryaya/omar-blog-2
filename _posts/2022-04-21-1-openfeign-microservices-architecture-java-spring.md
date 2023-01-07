@@ -2,7 +2,9 @@
 layout: post
 title: "How to Use OpenFeign to Call External APIs in Java"
 subtitle: "Communicate with RESTful APIs with simple functional interfaces"
+description: "Communicate with RESTful APIs with simple functional interfaces"
 background: '/img/posts/openfeign-part-1/background-travis-yewell-unsplash.jpg'
+image: '/img/posts/openfeign-part-1/background-travis-yewell-unsplash.jpg'
 ---
 # Content
 {:.no_toc}
