@@ -81,6 +81,12 @@ header.masthead {
                 font-size: 80px;
             }
         }
+        @media only screen and (min-width: 1400px) {
+            padding: 300px 0;
+        }
+        @media only screen and (max-width: 400px) {
+            padding: 150px 0;
+        }
     }
 
     .post-heading {
