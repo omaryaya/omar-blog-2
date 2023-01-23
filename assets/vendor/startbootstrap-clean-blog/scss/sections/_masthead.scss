@@ -61,6 +61,7 @@ header.masthead {
     .page-heading,
     .site-heading {
         text-align: center;
+        padding: 40vh 0;
 
         h1 {
             font-size: 50px;
@@ -81,12 +82,19 @@ header.masthead {
                 font-size: 80px;
             }
         }
-        @media only screen and (min-width: 1400px) {
-            padding: 300px 0;
-        }
-        @media only screen and (max-width: 400px) {
-            padding: 150px 0;
-        }
+        @media (max-width: 220px) { height: 150px 0; }
+        @media (min-width: 321px) { height: 200px 0; }
+        @media screen and (min-width: 481px)  { height: 250px 0; }
+        @media screen and (min-width: 768px)  { height: 250px 0; }
+        @media screen and (min-width: 1025px) { height: 250px 0; }
+        @media screen and (min-width: 1281px) { height: 250px 0; }
+        @media screen and (min-width: 1367px) { height: 280px 0; }
+        @media screen and (min-width: 1401px) { height: 320px 0; }
+        @media screen and (min-width: 1441px) { height: 350px 0; }
+        @media screen and (min-width: 2001px) { height: 400px 0; }
+        @media screen and (min-width: 2501px) { height: 500px 0; }
+        @media screen and (min-width: 3001px) { height: 600px 0; }
+        
     }
 
     .post-heading {

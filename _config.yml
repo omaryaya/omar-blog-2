@@ -40,6 +40,8 @@ twitter:
   username: OmarYayaa
   card: summary
 
+permalink: /:title
+
 logo: img/omar/Omar-Avatar.png
 
 social:
