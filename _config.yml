@@ -1,11 +1,12 @@
 title:              Omar YAYA
 greeting:           Hi, I'm Omar
-description:        Software Engineer | Certified ScrumMaster® (CSM®)
-author:             Omar YAYA
+description:        Senior Software Engineer (Full-stack) | Certified ScrumMaster® (CSM®)
+author: Omar YAYA
 baseurl:           "/"
 url:               "https://omaryaya.com"
 
 # Social Profiles
+default_username: omaryaya
 twitter_username:   OmarYayaa
 github_username:    omaryaya
 instagram_username:  yayaa.omar
@@ -22,6 +23,7 @@ paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
 # Conversion
@@ -32,3 +34,20 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+
+# SEO
+twitter:
+  username: OmarYayaa
+  card: summary
+
+permalink: /:title
+
+logo: img/omar/Omar-Avatar.png
+
+social:
+  name: Omar YAYA
+  links:
+    - https://twitter.com/OmarYayaa
+    - https://www.linkedin.com/in/omaryaya
+    - https://github.com/omaryaya
+    - https://www.instagram.com/yayaa.omar

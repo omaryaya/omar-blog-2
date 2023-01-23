@@ -6,3 +6,4 @@ Gemfile.lock
 .vscode
 .jekyll-cache
 run.sh
+*.DS_Store
