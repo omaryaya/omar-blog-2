@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to solve Leetcode Time Based Key-Value Store - Leetcode 981"
+title: "Time Based Key-Value Store - Leetcode 981 Java Solution"
 subtitle: "Clean Code Binary Search Solution in Java with detailed explanation and complexity analysis."
 description: "Clean Code Binary Search Solution in Java with detailed explanation and complexity analysis."
 background: '/img/posts/lc-981-time-based-key-value-store/debagni-sarkhel-GmXx2wTH0bE-unsplash.jpg'
@@ -11,12 +11,12 @@ image: '/img/posts/lc-981-time-based-key-value-store/debagni-sarkhel-GmXx2wTH0bE
 * Table of Contents
 {:toc}
 
-## Intro
-If you are not familiar with this problem already, please check it out ->  [LeetCode-981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/).
 
-Let's dive in!
-
+<br/>
+<br/>
 ## Problem Description
+
+ [LeetCode-981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/).
 
 Design a time-based key-value data structure that can store multiple values for the same key at different time stamps and retrieve the key's value at a certain timestamp.
 
@@ -37,7 +37,7 @@ The key does not change with time, but the value does. So we need to have a list
 This could be a very good application for a weather app. The key would be the city name, and the values would be the temperature on a given day.
 
 Example:
-```
+```java
 set("berlin", "15", 1);
 set("paris", "17", 1);
 set("london", "9", 2);
@@ -121,6 +121,9 @@ class TimeMap {
 }
 ```
 
+`sortedValuesForKey.floorKey(timestamp);` returns the greatest key less than or equal to the given key, or null if there is no such key; this is the main binary search operation in the code, and it is exactly what we need to find the closest timestamp.
+
+
 I hope you enjoyed this post.
 
-Let me know what you'd like me to talk about in future articles by [tweeting me](https://twitter.com/omaryayaa)
+If you have any questions, please feel free to reach out via LinkedIn [Linkedin.com/omaryaya](https://linkedin.com/in/omaryaya)
