@@ -7,8 +7,10 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         {% include contacts.html %}
-        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+        <p class="copyright text-muted">Copyright &copy; {{ site.author }} <span id="copyrightYear"></span></p>
       </div>
     </div>
   </div>
 </footer>
+
+<script src="/about.js"></script>
